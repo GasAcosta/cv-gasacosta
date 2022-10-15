@@ -1,0 +1,39 @@
+.referencias_h2{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.referencias_margin_padding{
+    margin: 8px;
+    padding: 25px 8px 45px 8px;
+    .referencias_fotos{
+        border: #2ab7ca solid 3px;
+        border-radius: 200px;
+    }
+    @media screen and (min-width: 951px){
+        .referencias_recomendacion{
+                font-size: 15px;
+                border: solid #2ab7ca 3px;
+                background-color: #f4f4f8;
+                text-align: center;
+                margin: 8px;
+            }
+        } 
+    @media screen and (max-width: 950px){
+        .referencias_recomendacion{
+                font-size: 12px;
+                border: solid #2ab7ca 3px;
+                background-color: #f4f4f8;
+                text-align: center;
+                margin: 8px;
+            }
+        }
+    @media screen and (max-width: 950px){
+        .referencias_nombre{
+                font-size: 20px;
+            }
+        .referencias_nombre_p{
+            font-size: 12px;
+        }
+        }
+}

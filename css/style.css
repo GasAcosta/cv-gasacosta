@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  color: #373737;
+  background-color: #e6e6ea;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav {
+  background-color: #f4f4f8;
+}
+.nav .nombre {
+  font-size: 30px;
+  text-align: center;
+  color: #373737;
+}
+.nav .nombre:hover {
+  color: #fed766;
+}
+.nav .link_clickeable:hover {
+  color: #fed766;
+}
+.nav .rrss {
+  display: flex;
+  justify-content: space-around;
+  width: 100px;
+  text-align: center;
+}
+.nav .rrss i {
+  color: #373737;
+}
+
+.footer {
+  margin-top: 15px;
+}
+.footer .nav {
+  background-color: #f4f4f8;
+}
+.footer .nav .nombre {
+  font-size: 30px;
+  text-align: center;
+  color: #373737;
+}
+.footer .nav .nombre:hover {
+  color: #fed766;
+}
+.footer .nav .link_clickeable:hover {
+  color: #fed766;
+}
+.footer .nav .rrss {
+  display: flex;
+  justify-content: space-around;
+  width: 100px;
+  text-align: center;
+}
+.footer .nav .rrss i {
+  color: #373737;
+}
+
+.index_main_presentacion {
+  border: solid #2ab7ca 3px;
+  margin: 8px;
+  margin-top: 15px;
+  width: auto;
+}
+@media screen and (min-width: 1080px) {
+  .index_main_presentacion .index_main_presentacion_quiensoy {
+    text-align: center;
+    padding: 25px;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1079px) {
+  .index_main_presentacion .index_main_presentacion_quiensoy {
+    text-align: center;
+    padding: 25px;
+    font-size: 12px;
+  }
+}
+.index_main_presentacion .index_main_presentacion_carrousel {
+  padding: 25px;
+}
+
+.index_main_experiencia {
+  text-align: center;
+  padding: 0px 0px 45px 0px;
+}
+.index_main_experiencia .index_main_experiencia_h2 {
+  text-align: center;
+  padding: 45px 0px 45px 0px;
+}
+.index_main_experiencia .index_main_experiencia_logos_cognizant {
+  padding: 8px;
+}
+.index_main_experiencia .index_main_experiencia_logos_obrasbasket {
+  padding: 8px;
+}
+.index_main_experiencia .index_main_experiencia_logos_tycplay {
+  padding: 8px;
+}
+.index_main_experiencia .index_main_experiencia_logos_sabermas {
+  padding: 8px;
+}
+
+.index_main_contactame {
+  border: solid #2ab7ca 3px;
+  margin: 8px;
+  width: auto;
+}
+.index_main_contactame .index_main_contactame_objetos {
+  text-align: center;
+  padding: 25px;
+}
+.index_main_contactame .index_main_contactame_objetos .index_main_contactame_logo_texto {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+.index_main_contactame .index_main_presentacion_carrousel {
+  padding: 25px;
+}
+
+.experiencias_h2 {
+  text-align: center;
+  padding: 0px 0px 45px 0px;
+  margin-top: 15px;
+}
+
+.experiencias_contenido {
+  text-align: center;
+}
+@media screen and (min-width: 1000px) {
+  .experiencias_contenido .experiencias_texto {
+    text-align: center;
+    padding: 25px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 999px) {
+  .experiencias_contenido .experiencias_texto {
+    text-align: center;
+    padding: 25px;
+    font-size: 12px;
+  }
+}
+.experiencias_contenido .img_fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.portfolio_narracion_titulo {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.portfolio_narracion_videos {
+  padding: 25px 0px 45px 0px;
+}
+
+.portfolio_conduccion_titulo {
+  text-align: center;
+}
+
+.portfolio_conduccion_videos {
+  padding: 25px 0px 45px 0px;
+}
+
+.portfolio_presentacion_titulo {
+  text-align: center;
+}
+
+.portfolio_presentacion_videos {
+  padding: 25px 0px 45px 0px;
+}
+
+.formacion_h2 {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.formacion_estilos {
+  margin: 8px;
+  text-align: center;
+  padding: 25px 8px 45px 8px;
+  border: #2ab7ca solid 3px;
+}
+
+.otras_experiencias_h2 {
+  text-align: center;
+  padding: 0px 0px 45px 0px;
+  margin-top: 15px;
+}
+
+.referencias_h2 {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.referencias_margin_padding {
+  margin: 8px;
+  padding: 25px 8px 45px 8px;
+}
+.referencias_margin_padding .referencias_fotos {
+  border: #2ab7ca solid 3px;
+  border-radius: 200px;
+}
+@media screen and (min-width: 951px) {
+  .referencias_margin_padding .referencias_recomendacion {
+    font-size: 15px;
+    border: solid #2ab7ca 3px;
+    background-color: #f4f4f8;
+    text-align: center;
+    margin: 8px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .referencias_margin_padding .referencias_recomendacion {
+    font-size: 12px;
+    border: solid #2ab7ca 3px;
+    background-color: #f4f4f8;
+    text-align: center;
+    margin: 8px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .referencias_margin_padding .referencias_nombre {
+    font-size: 20px;
+  }
+  .referencias_margin_padding .referencias_nombre_p {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

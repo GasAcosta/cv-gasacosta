@@ -1,0 +1,23 @@
+.nav{
+    background-color: #f4f4f8;
+    .nombre{
+        font-size: 30px;
+        text-align: center;
+        color: #373737;
+    }
+    .nombre:hover{
+        color: #fed766;
+    }
+    .link_clickeable:hover{
+        color: #fed766;
+    }
+    .rrss{
+        display: flex;
+        justify-content: space-around;
+        width: 100px;
+        text-align: center;
+        i{
+            color: #373737;
+        }
+    }
+}

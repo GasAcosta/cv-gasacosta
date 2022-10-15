@@ -1,0 +1,65 @@
+.index_main_presentacion{
+    border: solid #2ab7ca 3px;
+    margin: 8px;
+    margin-top: 15px;
+    width: auto;
+
+    @media screen and (min-width: 1080px){
+        .index_main_presentacion_quiensoy{
+                text-align: center;
+                padding: 25px;
+                font-size: 18px;
+            }
+        }
+        
+    @media screen and (max-width: 1079px){
+        .index_main_presentacion_quiensoy{
+                text-align: center;
+                padding: 25px;
+                font-size: 12px;
+            }
+        }
+
+    .index_main_presentacion_carrousel{
+        padding: 25px;
+        }
+    }
+
+.index_main_experiencia{
+    text-align: center;
+    padding: 0px 0px 45px 0px;
+    .index_main_experiencia_h2{
+        text-align: center;
+        padding: 45px 0px 45px 0px;
+    }
+    .index_main_experiencia_logos_cognizant{
+        padding: 8px;
+    }
+    .index_main_experiencia_logos_obrasbasket{
+        padding: 8px;
+    }
+    .index_main_experiencia_logos_tycplay{
+        padding: 8px;
+    }
+    .index_main_experiencia_logos_sabermas{
+        padding: 8px;
+    }
+}
+
+.index_main_contactame{
+    border: solid #2ab7ca 3px;
+    margin: 8px;
+    width: auto;
+    .index_main_contactame_objetos{
+        text-align: center;
+        padding: 25px;
+        .index_main_contactame_logo_texto{
+            display: flex;
+            justify-content: center;
+            font-size: 15px;
+        }
+    }
+    .index_main_presentacion_carrousel{
+        padding: 25px;
+        }
+}

@@ -1,0 +1,27 @@
+.experiencias_h2{
+    text-align: center;
+    padding: 0px 0px 45px 0px;
+    margin-top: 15px;
+}
+
+.experiencias_contenido{
+    text-align: center;
+    @media screen and (min-width: 1000px){
+        .experiencias_texto{
+                text-align: center;
+                padding: 25px;
+                font-size: 15px;
+            }
+        }
+    @media screen and (max-width: 999px){
+        .experiencias_texto{
+                text-align: center;
+                padding: 25px;
+                font-size: 12px;
+            }
+        }
+    .img_fluid{
+        max-width: 100%;
+        height: auto;
+    }
+}
