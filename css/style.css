@@ -160,6 +160,11 @@
   padding: 25px 0px 45px 0px;
 }
 
+.wrapper_video {
+  position: relative;
+  overflow: hidden;
+}
+
 .portfolio_conduccion_titulo {
   text-align: center;
 }
